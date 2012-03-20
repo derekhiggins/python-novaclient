@@ -1,6 +1,6 @@
 Name:             python-novaclient
-Version:          2012.1
-Release:          0.2.e4%{?dist}
+Version:          2012.2
+Release:          0.1%{?dist}
 Summary:          Python API and CLI for OpenStack Nova
 
 Group:            Development/Languages
@@ -68,6 +68,9 @@ rm -fr html/.doctrees html/.buildinfo
 %doc html
 
 %changelog
+* Tue Mar 20 2012 Derek Higgins <derekh@redhat.com> 2012.2-0.1
+- Update to 2012.2
+
 * Tue Mar 06 2012 Alan Pevec <apevec@redhat.com> 2012.1-0.2.e4
 - Update to essex-4
 
